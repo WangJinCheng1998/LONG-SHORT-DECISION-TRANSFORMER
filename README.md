@@ -16,7 +16,7 @@ This repository provides the official implementation of **Long-Short Decision Tr
 To use our goal-state concatenation method, you first need to download and preprocess the dataset.
 
 ```Dowload_normal_datset
-python3 data/download_d4rl_datasets.py
+python3 data/download_d4rl_datasets_nogoal.py
 ```
 ```Dowload_goal-state concatenation_datset
 python3 data/download_d4rl_datasets.py
