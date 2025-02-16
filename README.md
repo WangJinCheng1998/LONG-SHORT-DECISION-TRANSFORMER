@@ -1,5 +1,6 @@
 # Long-Short Decision Transformer: Bridging Global and Local Dependencies for Generalized Decision-Making
-A Python official implementation of LONG-SHORT DECISION TRANSFORMER
+
+This repository provides the official implementation of **Long-Short Decision Transformer (LSDT): Bridging Global and Local Dependencies for Generalized Decision-Making**, which introduces a two-branch Transformer architecture combining self-attention and convolution for reinforcement learning (RL) tasks with both Markovian and non-Markovian properties. 
 
 ## Overview
 
@@ -10,6 +11,16 @@ A Python official implementation of LONG-SHORT DECISION TRANSFORMER
 
   </tr>
 </table>
+
+## Dataset Preparation
+To use our goal-state concatenation method, you first need to download and preprocess the dataset.
+
+```Dowload_normal_datset
+python3 data/download_d4rl_datasets.py
+```
+```Dowload_goal-state concatenation_datset
+python3 data/download_d4rl_datasets.py
+```
 
 
 ## Acknowledgements
