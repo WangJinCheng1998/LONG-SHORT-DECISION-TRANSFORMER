@@ -1,7 +1,14 @@
 # Long-Short Decision Transformer: Bridging Global and Local Dependencies for Generalized Decision-Making
 A Python official implementation of LONG-SHORT DECISION TRANSFORMER
 
+## Overview
 
+<table>
+  <tr>
+    <td><img src="Detailed_LSDT.jpg" alt="Image 1" width="400"/></td>
+    <td><img src="Overall_structure.jpg" alt="Image 2" width="400"/></td>
+  </tr>
+</table>
 
 
 ## Acknowledgements
