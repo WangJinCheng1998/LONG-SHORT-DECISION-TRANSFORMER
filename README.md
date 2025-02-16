@@ -25,8 +25,7 @@ python3 data/Data_with_Goal_download.py
 ## For training
 
 ```Here is an example command for training:
-		
-		python3 scripts/train.py --env maze2d --dataset large --device cuda --context_len 30 --log_dir maze2d_large 
+python3 scripts/train.py --env maze2d --dataset large --device cuda --context_len 30 --log_dir maze2d_large 
 ```
 
 
@@ -34,8 +33,7 @@ If you want to implement the goal state concatenation, please add " --goalconcat
 
 ## For evaluation
 ```Here is an example command for testing:
-	
-		python3 scripts/test_o.py --env hopper --dataset medium-expert  --num_eval_ep 10  --chk_pt_name 1_hopper_medium_expert_best.pt --chk_pt_dir /home/usr/LSDT_code/Hopper_medium  --context_len 10 --convdim 96 --render  
+python3 scripts/test_o.py --env hopper --dataset medium-expert  --num_eval_ep 10  --chk_pt_name 1_hopper_medium_expert_best.pt --chk_pt_dir /home/usr/LSDT_code/Hopper_medium  --context_len 10 --convdim 96 --render  
 ```
 If you want to implement the goal state concatenation, please add " --goalconcate " in the command.  
 The command **convdim** is used to control the dimension ratio which is computed by convdim/(total hidden dimension). 
