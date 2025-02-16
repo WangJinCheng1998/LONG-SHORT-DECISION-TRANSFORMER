@@ -3,4 +3,4 @@ A Python official implementation of LONG-SHORT DECISION TRANSFORMER
 
 
 
-#Acknowledgements
+##Acknowledgements
