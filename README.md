@@ -19,7 +19,7 @@ To use our goal-state concatenation method, you first need to download and prepr
 python3 data/download_d4rl_datasets_nogoal.py
 ```
 ```Dowload_goal-state concatenation_datset
-python3 data/download_d4rl_datasets.py
+python3 data/Data_with_Goal_download.py
 ```
 
 
