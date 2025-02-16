@@ -6,7 +6,7 @@ A Python official implementation of LONG-SHORT DECISION TRANSFORMER
 <table>
   <tr>
     <td><img src="Overall_structure.jpg" alt="Image 1" width="350"/></td>
-    <td><img src="Detailed_LSDT.jpg" alt="Image 2" width="600"/></td>
+    <td><img src="Detailed_LSDT.jpg" alt="Image 2" width="550"/></td>
 
   </tr>
 </table>
