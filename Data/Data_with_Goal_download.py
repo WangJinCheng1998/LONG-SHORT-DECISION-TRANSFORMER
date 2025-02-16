@@ -18,8 +18,8 @@ print(data_dir)
 if not os.path.exists(data_dir):
     os.makedirs(data_dir)
 
-for env_name in ['maze2d']:
-    for dataset_type in ['medium']:
+for env_name in ['antmaze']:
+    for dataset_type in ['umaze','medium']:
 
         name = f'{env_name}-{dataset_type}-v1'
         name1 = f'{env_name}-{dataset_type}-goal'
