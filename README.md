@@ -11,6 +11,12 @@ This repository provides the official implementation of **Long-Short Decision Tr
 
   </tr>
 </table>
+## Install requirements
+
+```
+pip install -r requirements.txt
+```
+📌 You also need to install [mujoco](https://github.com/openai/mujoco-py).
 
 ## Dataset Preparation
 To use our goal-state concatenation method, you first need to download and preprocess the dataset.
