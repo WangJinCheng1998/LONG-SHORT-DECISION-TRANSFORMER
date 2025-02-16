@@ -5,8 +5,8 @@ A Python official implementation of LONG-SHORT DECISION TRANSFORMER
 
 <table>
   <tr>
-    <td><img src="Overall_structure.jpg" alt="Image 1" width="200"/></td>
-    <td><img src="Detailed_LSDT.jpg" alt="Image 2" width="400"/></td>
+    <td><img src="Overall_structure.jpg" alt="Image 1" width="250"/></td>
+    <td><img src="Detailed_LSDT.jpg" alt="Image 2" width="500"/></td>
 
   </tr>
 </table>
